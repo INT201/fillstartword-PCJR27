@@ -9,8 +9,5 @@ function fillStartWord(startWord, word) {
  return startWord+word
  
 }
-console.log(fillStartWord('1-2565-','Hello World'))
-console.log(fillStartWord('first',null))
-console.log(fillStartWord('first','firststep'))
 
 module.exports = fillStartWord
